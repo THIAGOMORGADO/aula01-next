@@ -15,9 +15,7 @@ export default function Home() {
     <div>
       <h1>Tela Home ({contador})</h1>
       <ul>
-        <Link href="/sobre/thiago">
-          Thiago
-        </Link>
+      <Link href="/sobre/thiago">thiago</Link>
       </ul>
 
       <button onClick={handleCountPlus}> aumentar </button>
