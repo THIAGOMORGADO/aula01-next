@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Home() {
@@ -14,8 +15,8 @@ export default function Home() {
     <div>
       <h1>Tela Home ({contador})</h1>
       <ul>
-        <li><a href="/sobre/alanna">thiago</a></li>
-        <li><a href="/sobre/">fernando</a></li>
+        <li><Link href="/sobre/thiago">thiago </Link></li>
+        <li><Link href="/sobre/fernando">thiago </Link></li>
       </ul>
 
       <button onClick={handleCountPlus}> aumentar </button>
